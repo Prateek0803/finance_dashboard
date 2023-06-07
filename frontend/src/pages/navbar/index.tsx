@@ -3,9 +3,8 @@ import { Link } from "react-router-dom";
 import { Box, Typography, useTheme } from "@mui/material";
 import BoxWithFlexBetween from "@/components/BoxWithFlexBetween";
 import { PixOutlined } from "@mui/icons-material";
-type Props = {};
 
-const Navbar = (props: Props) => {
+const Navbar = () => {
   const {palette} = useTheme();
   const [selected, setSelected] = useState("dashboard")
   return(

@@ -1,18 +1,15 @@
 import Boxheader from "@/components/Boxheader";
 import DashboardBox from "@/components/DashboardBox";
 import {
-  useGetKpisQuery,
   useGetProductsQuery,
   useGetTransactionsQuery,
 } from "@/state/api";
 import { Box, useTheme } from "@mui/material";
 import { DataGrid, GridCellParams } from "@mui/x-data-grid";
 
-type Props = {};
 
-const Row3 = (props: Props) => {
+const Row3 = () => {
   const { data: transactionData } = useGetTransactionsQuery();
-  const { data: kpiData } = useGetKpisQuery();
   const { data: productData } = useGetProductsQuery();
   const productColumns = [
     {
