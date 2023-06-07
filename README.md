@@ -1,5 +1,3 @@
-Certainly! Here's an updated version of the README with added screenshots:
-
 # Finance Dashboard
 
 This project is a finance dashboard that provides insights into revenue, expenses, and other financial data. It utilizes various visual components such as line graphs, bar graphs, tables, and scatter graphs to present the information in a user-friendly manner.
